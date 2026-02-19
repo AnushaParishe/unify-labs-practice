@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Advanced Concepts Playground</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>JavaScript Advanced Concepts Playground</h1>
+
+    <div class="card">
+        <h2>Timers</h2>
+        <p id="timerOutput">Waiting...</p>
+        <button onclick="startInterval()">Start Counter</button>
+        <button onclick="stopInterval()">Stop Counter</button>
+    </div>
+
+    <div class="card">
+        <h2>Callbacks & Promises</h2>
+        <button onclick="runCallback()">Run Callback</button>
+        <button onclick="runPromise()">Run Promise</button>
+        <p id="callbackOutput"></p>
+    </div>
+
+    <div class="card">
+        <h2>Fetch API (Async/Await)</h2>
+        <button onclick="fetchData()">Fetch User</button>
+        <pre id="apiOutput"></pre>
+    </div>
+
+    <div class="card">
+        <h2>Closures & Scope</h2>
+        <button onclick="runClosure()">Run Closure</button>
+        <p id="closureOutput"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
