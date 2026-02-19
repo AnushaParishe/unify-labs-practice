@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Storage & Advanced Concepts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>JavaScript Advanced Concepts - Storage & Modules</h1>
+
+    <div class="card">
+        <h2>JSON & Serialization</h2>
+        <button onclick="handleJSON()">Convert Object to JSON</button>
+        <pre id="jsonOutput"></pre>
+    </div>
+
+    <div class="card">
+        <h2>This, Call, Apply, Bind</h2>
+        <button onclick="runThisExamples()">Run Examples</button>
+        <pre id="thisOutput"></pre>
+    </div>
+
+    <div class="card">
+        <h2>Local Storage</h2>
+        <button onclick="saveLocal()">Save</button>
+        <button onclick="getLocal()">Get</button>
+        <pre id="localOutput"></pre>
+    </div>
+
+    <div class="card">
+        <h2>Session Storage</h2>
+        <button onclick="saveSession()">Save</button>
+        <button onclick="getSession()">Get</button>
+        <pre id="sessionOutput"></pre>
+    </div>
+
+    <div class="card">
+        <h2>Cookies</h2>
+        <button onclick="setCookieData()">Set Cookie</button>
+        <button onclick="getCookieData()">Get Cookie</button>
+        <pre id="cookieOutput"></pre>
+    </div>
+
+    <div class="card">
+        <h2>JS Modules</h2>
+        <button onclick="runModule()">Run Module Function</button>
+        <pre id="moduleOutput"></pre>
+    </div>
+
+   <script type="module" src="main.js"></script>
+
+</body>
+</html>
