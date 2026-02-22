@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Crypto Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Crypto Dashboard</h1>
+    <input type="text" id="search" placeholder="Search coin..." />
+    <select id="sort">
+      <option value="market_cap_desc">Market Cap ↓</option>
+      <option value="market_cap_asc">Market Cap ↑</option>
+      <option value="name">Name A-Z</option>
+    </select>
+    <button id="themeToggle">Toggle Theme</button>
+  </header>
+
+  <div id="notification"></div>
+  <div id="loader" class="loader hidden"></div>
+  <div id="cards" class="cards"></div>
+
+  <script type="module" src="App.js"></script>
+</body>
+</html>
